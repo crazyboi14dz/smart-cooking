@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-
   let aboutBtn = document.querySelector(
     ".about-section .about-content .circle .video-action .play-btn"
   );

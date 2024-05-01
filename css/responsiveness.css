@@ -1,0 +1,90 @@
+@media (max-width: 375px) {
+  .banner-section .circle {
+    height: 360px;
+    width: 360px;
+  }
+
+  .banner-section .circle::after {
+    height: 400px;
+    width: 400px;
+  }
+
+  .banner-section .circle::before {
+    height: 320px;
+    width: 320px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner-section .circle {
+    height: 450px;
+    width: 450px;
+    top: -110px;
+    right: -220px;
+  }
+
+  .banner-section .circle::after {
+    height: 490px;
+    width: 490px;
+  }
+
+  .banner-section .circle::before {
+    height: 410px;
+    width: 410px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-section .circle {
+    height: 500px;
+    width: 500px;
+    top: -110px;
+    right: -185px;
+  }
+
+  .banner-section .circle::after {
+    height: 540px;
+    width: 540px;
+  }
+
+  .banner-section .circle::before {
+    height: 460px;
+    width: 460px;
+  }
+
+  .featurevid-section .feature-video-img .video {
+    /* top: 120px;
+    left: 0; */
+    top: 329px;
+    left: 120px;
+  }
+
+  .featurevid-section .feature-video-img .video img {
+    width: 250px;
+  }
+
+  .featurevid-section .feature-video-img .img-material {
+    /* top: 50px;
+    right: 10px; */
+    top: -50px;
+    right: 120px;
+  }
+
+  .instagram-section .instagram-heading {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .instagram-section .instagram-heading img {
+    margin-bottom: 0;
+    margin-right: 50px;
+  }
+}
+@media (max-width: 991px) {
+  .about-clip video {
+    max-width: 90%;
+  }
+}
